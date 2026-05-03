@@ -41,7 +41,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/chenguangpeng/math-learn' },
+      { icon: 'github', link: 'https://github.com/chenhaoren/math-learn' },
     ],
 
     footer: {
@@ -80,7 +80,7 @@ export default defineConfig({
 
     // 编辑链接
     editLink: {
-      pattern: 'https://github.com/chenguangpeng/math-learn/edit/main/docs/:path',
+      pattern: 'https://github.com/chenhaoren/math-learn/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页',
     },
   },
