@@ -1,0 +1,58 @@
+:root {
+  --vp-c-brand-1: #42b883;
+  --vp-c-brand-2: #3aa876;
+  --vp-c-brand-3: #2e8e62;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #42b883 30%, #35495e);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #42b883 50%, #35495e 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/* 首页自定义样式 */
+.VPHome .name .clip {
+  font-weight: 700;
+}
+
+/* 文章内容样式优化 */
+.vp-doc h2 {
+  border-top: none;
+  padding-top: 24px;
+}
+
+.vp-doc table {
+  display: table;
+  width: 100%;
+}
+
+.vp-doc th,
+.vp-doc td {
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .vp-doc th,
+  .vp-doc td {
+    white-space: normal;
+    font-size: 0.875rem;
+  }
+}
+
+/* 引用块美化 */
+.vp-doc blockquote {
+  border-left: 4px solid var(--vp-c-brand-1);
+  background: var(--vp-c-bg-soft);
+  padding: 8px 16px;
+  border-radius: 0 8px 8px 0;
+}
