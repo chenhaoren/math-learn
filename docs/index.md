@@ -12,7 +12,7 @@ hero:
       link: /激活孩子的四大奥数基因/
     - theme: alt
       text: GitHub
-      link: https://github.com/chenguangpeng/math-learn
+      link: https://github.com/chenhaoren/math-learn
 
 features:
   - title: 激活孩子的四大奥数基因

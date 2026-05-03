@@ -10,7 +10,7 @@
 
 本仓库基于 [VitePress](https://vitepress.dev/) 构建博客，自动部署到 GitHub Pages。
 
-**在线访问**：https://chenguangpeng.github.io/math-learn/
+**在线访问**：https://chenhaoren.github.io/math-learn/
 
 ### 本地开发
 
